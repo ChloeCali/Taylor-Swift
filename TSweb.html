@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+  <style>
+    body {background-color: powderblue;}
+    h1   {color: rgb(255, 255, 255);
+          text-align: center;}
+    a:hover {
+      background-color: yellow;
+      color: black;
+      }
+    p {
+    color: white; 
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 32px;
+    background-color: #c677ff; 
+    }
+  </style>
+
+<title>TAYLOR</title>
+</head>
+<body style="background-color:pink;">
+
+<script>
+  function light(){ document.body.style.background = "pink"; }
+  function dark(){ document.body.style.background = "rgb(56, 18, 145)"; }
+</script>
+
+
+<style>
+    .button { 
+      background-color: #087f0c; /* Taylor Swift */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-decoration: none;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      display: inline-block;
+    }
+    
+    .button2 {background-color: #d9c78f;} /* Fearless */
+    .button3 {background-color: #462245;} /* Speak Now */ 
+    .button4 {background-color: #a02b48;} /* Red */ 
+    .button5 {background-color: #b0a19d;} /* 1989 */
+    .button6 {background-color: #000000;} /* Reputation */
+    .button7 {background-color: #dc89a9;} /* Lover */ 
+    .button8 {background-color: #7f7f7f;} /* Folklore */ 
+    .button9 {background-color: #7e5c43;} /* Evermore */
+    .button10 {background-color: #002662;} /* Midnights */
+    .fun {
+      background-color: #cb1077;
+      color: white;
+      position: absolute;
+      font-size: 30px;
+      left: 620px;
+      top: 300px;}
+    .center1 {
+    margin: 0;
+    position: absolute;
+    top: 1500px;
+    left: 140px;
+    -ms-transform: translate(-50%, -50%);
+  }
+    .center2 {
+      margin: 0;
+      position: absolute;
+      top: 1500px;
+      left: 765px;
+      -ms-transform: translate(-50%, -50%);
+    }
+    .center3 {
+    margin: 0;
+    position: absolute;
+    top: 200px;
+    left: 680px;
+    color: white;
+  }
+
+</style>
+
+<h1>OFFICIAL TAYLOR SWIFT FAN HEADQUARTERS</h1>
+
+
+<img src="ts1.png" 
+  style="position:relative; right:0px; bottom:0px; width:500px; height:500px; border:none;">
+<img src="ts3.png" 
+  style="position:relative; left:500px; bottom:0px; width:500px; height:500px; border:none;"> 
+<img src="ts2.png"  
+  style="position:relative; left:500px; bottom:100px; width:500px; height:500px; border:none;">
+
+
+  <div class ="center3">
+  <button onclick="light()" style="padding:10px;background:pink">light mode</button>
+  <button onclick="dark()" style="padding:10px;background:rgb(56, 18, 145);color:white;" >dark mode</button>
+  </div>
+
+
+
+<p>
+Hey swifties, welcome to my Taylor fan site. Have you ever found 
+yourself debating with another swiftie which album is Taylor's best? 
+I need your help gathering data to provide an answer to that very 
+question. Please help me by filling in the form below. 
+</p>
+
+
+
+
+
+
+
+<form action = "/save" method = "POST">
+  <label for="fname" style="color:white;font-size: 30px;">First name:</label>
+  <input type="text" id="fname" name="fname"  style="padding: 15px 10px; font-size:20px;"><br><br>
+  <label class= "choose" for="Taylor Albums" style="color:white;font-size: 30px;">What's your favorite Taylor album?:</label>
+  <select name="tsAlbums" id="tsAlbums" style="padding: 15px 10px; font-size:20px;">
+    <option class="button" value="Taylor Swift">Taylor Swift</option>
+    <option class="button button2" value="Fearless">Fearless</option>
+    <option class="button button3" value="Speak Now">Speak Now</option>
+    <option class="button button4" value="Red">Red</option>
+    <option class="button button5" value="1989">1989</option>
+    <option class="button button6" value="Reputation">Reputation</option>
+    <option class="button button7" value="Lover">Lover</option>
+    <option class="button button8" value="Folklore">Folklore</option>
+    <option class="button button9" value="Evermore">Evermore</option>
+    <option class="button button10" value="Midnights">Midnights</option>
+  </select>
+  <input type = "submit" style="color:rgb(56, 18, 145); font-size: 20px; background:rgb(255, 255, 255); padding: 15px 32px;" value="Submit">
+</form>
+
+
+
+
+<a class= "button fun" href="https://www.taylorswift.com/">Click to have fun!</a>
+<div class ="center1">
+<a class="button" href="https://open.spotify.com/album/7mzrIsaAjnXihW3InKjlC3">Taylor Swift</a>
+<a class="button button2" href="https://open.spotify.com/album/4hDok0OAJd57SGIT8xuWJH">Fearless</a>
+<a class="button button3" href="https://open.spotify.com/album/5MfAxS5zz8MlfROjGQVXhy">Speak Now</a>
+<a class="button button4" href="https://open.spotify.com/album/1EoDsNmgTLtmwe1BDAVxV5">Red</a>
+<a class="button button5" href="https://open.spotify.com/album/2QJmrSgbdM35R67eoGQo4j">1989</a>
+</div>
+<div class ="center2">
+<a class="button button6" href="https://open.spotify.com/album/6DEjYFkNZh67HP7R9PSZvv">Reputation</a>
+<a class="button button7" href="https://open.spotify.com/track/1dGr1c8CrMLDpV6mPbImSI">Lover</a>
+<a class="button button8" href="https://open.spotify.com/search/folklore">Folklore</a>
+<a class="button button9" href="https://open.spotify.com/album/2Xoteh7uEpea4TohMxjtaq">Evermore</a>
+<a class="button button10" href="https://open.spotify.com/album/151w1FgRZfnKZA9FEcg9Z3">Midnights</a>
+</div>
+
+
+<p>
+SWIFTIES FOR LIFE!!
+</p>
+
+<img src="background.png" 
+  style="position:relative; top: 200px; width:1500px; height:1000px; border:none;"> 
+
+</body>
+</html>
